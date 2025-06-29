@@ -1,21 +1,11 @@
-# fuel_station_frontend
+# Demo - Fuel Station frontend
 
-A new Flutter project.
+## Setup
+Download this git repo and install all dependencies with `flutter pub get`. Afterwards
+you can run the application with `flutter run` or just start it in Android Studio or
+VS Code. 
 
-## Getting Started
+You will also need to host the backend of this project for the app to display the
+fuel stations correctly. All data is only loaded from the backend, there currently is 
+no device persistence.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-## todos:
-- Replacing inner screen with a map
-- create settings page for switching api key and host for requests
